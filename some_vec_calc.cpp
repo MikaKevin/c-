@@ -35,7 +35,7 @@ float vecangle(vector<float> vec1,vector<float> vec2){
     return acos(nominator/denominator);
 }
 vector<float> veccross(vector<float> vec1,vector<float> vec2){
-    //so far i only know how to calculate cross product in 3d
+    //so far i only remember how to calculate cross product in 3d
     vector<float> output;
     output[0] = vec1[1]*vec2[2]-vec1[2]*vec2[1];
     output[1] = vec1[2]*vec2[0]-vec1[0]*vec2[2];
